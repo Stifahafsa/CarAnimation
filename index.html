@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cars Animation</title>
+</head>
+
+<body>
+    <div class="container">
+        <img src="/img/road.jpg" class="road" alt="">
+        <img src="/img/red.png" class="red" alt="">
+        <img src="/img/orange.png" class="orange" alt="">
+        <img src="/img/green.png" class="green" alt="">
+
+        <div class="car">
+            <img src="/img/car.png" alt="">
+            <img src="/img/tyre.png" class="wheel1" alt="">
+            <img src="/img/tyre.png" class="wheel2" alt="">
+        </div>
+        <div class="car2">
+            <img src="/img/car2.png" alt="">
+            <img src="/img/tyre.png" class="wheel3" alt="">
+            <img src="/img/tyre.png" class="wheel4" alt="">
+        </div>
+    </div>
+
+    <!-- Add a play button -->
+    <button id="playAudio" 
+        style="position: fixed; 
+               top: 10px; 
+               left: 10px; 
+               padding: 10px 20px; 
+               background-color: #007BFF; 
+               color: white; 
+               border: none; 
+               border-radius: 5px; 
+               font-size: 16px; 
+               cursor: pointer; 
+               box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+               transition: background-color 0.3s, transform 0.2s;">
+    Start Music
+</button>
+
+
+    <audio id="music" src="./audio/music.ogg"></audio>
+    <script src="script.js"></script>
+</body>
+
+</html>
